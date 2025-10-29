@@ -1,12 +1,60 @@
 
-public class Carro {
-    public String marca;
-    public String cor;
-    public int litragem;
-    public boolean ligado;
+    public class Carro {
+    private String marca;
+    private String cor;
+    private int litragem;
+    private boolean ligado;
     private int consumo;
 
-    public void andarParaFrente() {
+        public Carro(String marca, String cor, int litragem, boolean ligado, int consumo) {
+            this.marca = marca;
+            this.cor = cor;
+            this.litragem = litragem;
+            this.ligado = ligado;
+            this.consumo = consumo;
+        }
+
+        public String getMarca() {
+            return marca;
+        }
+
+        public void setMarca(String marca) {
+            this.marca = marca;
+        }
+
+        public String getCor() {
+            return cor;
+        }
+
+        public void setCor(String cor) {
+            this.cor = cor;
+        }
+
+        public int getLitragem() {
+            return litragem;
+        }
+
+        public void setLitragem(int litragem) {
+            this.litragem = litragem;
+        }
+
+        public boolean isLigado() {
+            return ligado;
+        }
+
+        public void setLigado(boolean ligado) {
+            this.ligado = ligado;
+        }
+
+        public int getConsumo() {
+            return consumo;
+        }
+
+        public void setConsumo(int consumo) {
+            this.consumo = consumo;
+        }
+
+        public void andarParaFrente() {
         if (this.ligado == false) {
             System.out.println("Não é possivel andar com carro desligado");
         } else {

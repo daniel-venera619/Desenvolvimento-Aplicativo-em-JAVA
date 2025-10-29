@@ -6,14 +6,14 @@ public class Main {
         //NomeClasse batatinha = new NomeClasse();
         //batatinha.
 
-        Carro cruze = new Carro();
+        //Carro cruze = new Carro();
 
-        cruze.marca = "Chevroleti";
-        cruze.cor = "Branco";
-        cruze.litragem = 100;
+        //cruze.marca = "Chevroleti";
+        //cruze.cor = "Branco";
+        //cruze.litragem = 100;
 
-        cruze.status();
-        cruze.ligando();
-        cruze.andarParaFrente();
+       // cruze.status();
+        //cruze.ligando();
+        //cruze.andarParaFrente();
     }
 }
