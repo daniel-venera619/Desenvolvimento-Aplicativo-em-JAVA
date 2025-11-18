@@ -37,9 +37,9 @@ public class Pessoa implements IPessoas {
     }
     public String fazerAniversario() {
         this.idade++;
-        return "🎉 Feliz aniversário, " + nome + "! Agora você tem " + idade + " anos.";
+        return "Feliz aniversário, " + nome + "! Agora você tem " + idade + " anos.";
     }
     public String toString() {
-        return "Pessoa [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + "]";
+        return "Pessoa nome=" + nome + ", idade=" + idade + ", sexo=" + sexo;
     }
 }
